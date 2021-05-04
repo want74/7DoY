@@ -26,18 +26,24 @@
                 <div class="row" style="height:150px;">
 
                 </div>
-                <form action="auth_insert.php" method="post">
-                    <div class="row">
+                <form action="reg_insert.php" method="post" enctype="multipart/form-data">
+                    <div class="row mt-2">
                         <input type="text" name="nickName" placeholder="Пользователь" class="form-control w-50 mx-auto">
                     </div>
                     <div class="row mt-2">
-                        <input type="password" name="password" placeholder="Пароль" class="form-control w-50 mx-auto mt-3">
+                        <input type="text" name="fullName" placeholder="ФИО" class="form-control w-50 mx-auto">
+                    </div>
+                    <div class="row mt-2">
+                        <input type="file" name="avatar" placeholder="Аватарка" class="form-control w-50 mx-auto">
+                    </div>
+                    <div class="row mt-2">
+                        <input type="password" name="password" placeholder="Пароль" class="form-control w-50 mx-auto">
                     </div>
                     <div class="row">
-                        <p class="mx-auto mt-1">У вас  нет аккаунта? <a href="reg.php">Регистрация</a></p>
+                        <p class="mx-auto mt-2">У вас  есть аккаунт? <a href="index.php">Войти</a></p>
                     </div>
                     <div class="row">
-                        <button class="btn btn-success mx-auto">Авторизация</button>
+                        <button class="btn btn-success mx-auto">Регистрация</button>
                     </div>
                 </form>
             </div>

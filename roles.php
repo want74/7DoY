@@ -21,25 +21,19 @@
 
     <!--Content-->
     <div class="col">
-        <div class="row">
-            <div class="col-4 bg-dark mx-auto mt-5 text-white" style="height: 60vh;border-radius:230px;">
-                <div class="row" style="height:150px;">
-
+        <div class="row" style="margin-top:130px;">
+            <div class="col-7 mx-auto bg-dark">
+                <div class="row" style="height:270px;">
+                    <div class="col bg-warning d-flex">
+                        <p class="mx-auto my-auto">Разработчик</p>
+                    </div>
+                    <div class="col bg-primary d-flex">
+                        <p class="mx-auto my-auto">Менеджер</p>
+                    </div>
+                    <div class="col bg-danger d-flex">
+                        <p class="mx-auto my-auto">Дизайнер</p>
+                    </div>
                 </div>
-                <form action="auth_insert.php" method="post">
-                    <div class="row">
-                        <input type="text" name="nickName" placeholder="Пользователь" class="form-control w-50 mx-auto">
-                    </div>
-                    <div class="row mt-2">
-                        <input type="password" name="password" placeholder="Пароль" class="form-control w-50 mx-auto mt-3">
-                    </div>
-                    <div class="row">
-                        <p class="mx-auto mt-1">У вас  нет аккаунта? <a href="reg.php">Регистрация</a></p>
-                    </div>
-                    <div class="row">
-                        <button class="btn btn-success mx-auto">Авторизация</button>
-                    </div>
-                </form>
             </div>
         </div>
     </div>
