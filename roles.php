@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body style="background: white">
+<body style="">
 
 
     <!--HEADER-->
@@ -22,16 +22,12 @@
     <!--Content-->
     <div class="col">
         <div class="row" style="margin-top:130px;">
-            <div class="col-7 mx-auto bg-dark">
-                <div class="row" style="height:270px;">
-                    <div class="col bg-warning d-flex">
-                        <a class="mx-auto my-auto" data-toggle="modal" data-target="#Description">Разработчик</a>
-                    </div>
-                    <div class="col bg-primary d-flex">
-                        <p class="mx-auto my-auto">Менеджер</p>
-                    </div>
-                    <div class="col bg-danger d-flex">
-                        <p class="mx-auto my-auto">Дизайнер</p>
+            <div class="col-7 mx-auto">
+                <div class="row" style="height:260px;">
+                    <div class="col d-flex developer">
+                       <img src="img/%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1.svg" class="developer">
+                       <img src="img/%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1.svg" class="developer">
+                       <img src="img/%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1.svg" class="developer"> 
                     </div>
                 </div>
             </div>
@@ -56,6 +52,49 @@
 
                     </form>
                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="manager" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Мой опыт:</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="asdasd">
+                        <div class="form-group">
+                            <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                        <button class="btn btn-success">Отправить</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="disign" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Мой опыт:</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="asdasd">
+                        <div class="form-group">
+                            <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                        <button class="btn btn-success">Отправить</button>
+
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
 

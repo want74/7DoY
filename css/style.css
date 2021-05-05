@@ -1,0 +1,20 @@
+/*.developer
+{
+    background: url('../img/Ellipse%2083.svg') no-repeat;
+    background-size: contain;
+}
+.manager
+{
+    background: url('../img/Ellipse%2084.svg') no-repeat;
+    background-size: contain;
+}
+
+.disign
+{
+    background: url('../img/Ellipse%2085.svg') no-repeat;
+    background-size: contain;
+} */
+.developer
+{
+    width: 33%;
+}
