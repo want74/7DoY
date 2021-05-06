@@ -18,3 +18,24 @@
 {
     width: 33%;
 }
+.rangCircle 
+{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    border-radius: 250px;
+    box-shadow: 0px 0px 40px 0px #00000040;
+    
+}
+
+.line 
+{
+    width: 10px;
+    height: 90px;
+    box-shadow: 0px 0px 40px 0px #00000040;
+}
+
+.disabled 
+{
+    background: #e2e2e2;
+}
