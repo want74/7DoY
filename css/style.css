@@ -14,6 +14,8 @@
     background: url('../img/Ellipse%2085.svg') no-repeat;
     background-size: contain;
 } */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
 .developer
 {
     width: 33%;
@@ -39,3 +41,24 @@
 {
     background: #e2e2e2;
 }
+
+.btn-spec
+{
+    height: 70px;
+    width: 300px;
+    padding: auto;
+    background: #0596C3;
+    font-size: 34px;
+    color: white;
+    border-radius: 25px;
+}
+
+body {
+    
+    font-family: Roboto;
+    font-family: 'Comfortaa', cursive;
+    background: url(../img/unnamed.jpg) no-repeat;
+    background-size: cover;
+
+}
+

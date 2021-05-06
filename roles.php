@@ -16,7 +16,7 @@
 
 
     <!--HEADER-->
-    <nav class="navbar" style="background:#30D8F8;">
+    <nav class="navbar bg-light" style=";">
         <a class="navbar-brand" href="#">
             <!--<img src="img/logo.svg">--> LOGO
         </a>
@@ -24,86 +24,40 @@
 
 
     <!--Content-->
-    <div class="col">
-        <div class="row" style="margin-top:130px;">
-            <div class="col-7 mx-auto">
-                <div class="row" style="height:260px;">
-                    <div class="col d-flex developer">
-                       <img src="img/%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1.svg" class="developer" data-toggle="modal" data-target="#Description">
-                       <img src="img/Group%2045.svg" class="developer" data-toggle="modal" data-target="#manager">
-                       <img src="img/Group%2047.svg" class="developer" data-toggle="modal" data-target="#disign"> 
+    <div class="col text-white">
+        <div class="row" style="margin-top:200px;">
+            <div class="col-8 mx-auto">
+                <div class="row mb-4">
+                    <h2 class="mx-auto">Выберите вашу специальность:</h2>
+                </div>
+                <div class="row mt-5" style="height:260px;">
+                    <div class="col d-flex">
+                        <a href="developer.php">
+                            <button class="btn btn-spec">
+                                Разработчик
+                            </button>
+                        </a>
+
+                    </div>
+                    <div class="col d-flex">
+                        <a href="disign.php">
+                            <button class="btn btn-spec">
+                                Дизайнер
+                            </button>
+                        </a>
+                    </div>
+                    <div class="col d-flex">
+                        <a href="manager.php">
+                            <button class="btn btn-spec">
+                                Менеджер
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="modal fade" id="Description" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">Мой опыт:</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form action="zayavka.php" method="post">
-                        <div class="form-group">
-                            <textarea class="form-control" id="message-text" name="description" rows="10"></textarea>
-                            <input type="text" name="role" class="role d-none" value="1">
-                        </div>
-                        <button class="btn btn-success" style="background:#FFBD00;">Отправить</button>
-
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal fade" id="manager" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">Мой опыт:</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form action="zayavka.php" method="post">
-                        <div class="form-group">
-                            <textarea class="form-control" id="message-text" name="description" rows="10"></textarea>
-                            <input type="text" name="role" class="role d-none" value="2">
-                        </div>
-                        <button class="btn btn-success" style="background:#6CD4E2;">Отправить</button>
-
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal fade" id="disign" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">Мой опыт:</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form action="zayavka.php" method="post">
-                        <div class="form-group">
-                            <textarea class="form-control" id="message-text" name="description" rows="10"></textarea>
-                            <input type="text" name="role" class="role d-none" value="3">
-                        </div>
-                        <button class="btn btn-success" style="background:#EA43E3;">Отправить</button>
-
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
