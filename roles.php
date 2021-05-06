@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body style="">
+<body style="height:100vh;">
 
 
     <!--HEADER-->

@@ -16,34 +16,30 @@
 } */
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 
-.developer
-{
+.developer {
     width: 33%;
 }
-.rangCircle 
-{
+
+.rangCircle {
     height: 100px;
     width: 100px;
     display: flex;
     border-radius: 250px;
     box-shadow: 0px 0px 40px 0px #00000040;
-    
+
 }
 
-.line 
-{
+.line {
     width: 10px;
     height: 90px;
     box-shadow: 0px 0px 40px 0px #00000040;
 }
 
-.disabled 
-{
+.disabled {
     background: #e2e2e2;
 }
 
-.btn-spec
-{
+.btn-spec {
     height: 70px;
     width: 300px;
     padding: auto;
@@ -53,12 +49,24 @@
     border-radius: 25px;
 }
 
+.blueLine {
+    border-top: 35px solid #0596C3;
+    border-radius: 12px;
+}
+
+.btn-ourColor {
+    background: #0596C3;
+}
+
+.overflow {
+    overflow-y: scroll;
+}
+
 body {
-    
+
     font-family: Roboto;
     font-family: 'Comfortaa', cursive;
     background: url(../img/unnamed.jpg) no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 
 }
-
