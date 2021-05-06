@@ -33,7 +33,7 @@
                             <h1 class="testHeader mx-auto">Тест</h1>
                         </div>
                         <div class="row">
-                            <p class="mx-auto">Тест определит твой уровень знаний для WEB-developer`а.</p>
+                            <p class="mx-auto">Тест определит твой уровень знаний для WEB-дизайнера.</p>
                         </div>
                         <div class="row">
                             <div class="col-11 mx-auto">

@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body style="background: white">
+<body style="">
 
 
     <!--HEADER-->
-    <nav class="navbar" style="background:#30D8F8;">
+    <nav class="navbar bg-light" style="">
         <a class="navbar-brand" href="#">
             <!--<img src="img/logo.svg">--> LOGO
         </a>
@@ -22,28 +22,28 @@
     <!--Content-->
     <div class="col">
         <div class="row">
-            <div class="col-4 bg-dark mx-auto mt-5 text-white" style="height: 60vh;border-radius:230px;">
+            <div class="col-4 bg-light mx-auto mt-5 text-dark blueLine" style="height: 70vh;border-radius:60px;">
                 <div class="row" style="height:150px;">
 
                 </div>
                 <form action="reg_insert.php" method="post" enctype="multipart/form-data">
                     <div class="row mt-2">
-                        <input type="text" name="nickName" placeholder="Пользователь" class="form-control w-50 mx-auto">
+                        <input type="text" name="nickName" placeholder="Пользователь" class="form-control w-50 mx-auto inputReg">
                     </div>
                     <div class="row mt-2">
-                        <input type="text" name="fullName" placeholder="ФИО" class="form-control w-50 mx-auto">
+                        <input type="text" name="fullName" placeholder="ФИО" class="form-control w-50 mx-auto inputReg">
                     </div>
                     <div class="row mt-2">
-                        <input type="file" name="avatar" placeholder="Аватарка" class="form-control w-50 mx-auto">
+                        <input type="file" name="avatar" placeholder="Аватарка" class="form-control w-50 mx-auto inputReg">
                     </div>
                     <div class="row mt-2">
-                        <input type="password" name="password" placeholder="Пароль" class="form-control w-50 mx-auto">
+                        <input type="password" name="password" placeholder="Пароль" class="form-control w-50 mx-auto inputReg">
                     </div>
                     <div class="row">
                         <p class="mx-auto mt-2">У вас  есть аккаунт? <a href="index.php">Войти</a></p>
                     </div>
                     <div class="row">
-                        <button class="btn btn-success mx-auto">Регистрация</button>
+                        <button class="btn btn-ourColor text-white mx-auto">Регистрация</button>
                     </div>
                 </form>
             </div>
