@@ -95,7 +95,7 @@
             test.value = score;
             console.log(score)
         }
-    </script>
+    </script>TImE355hpVC%$5cd$jzj
 </body>
 
 </html>

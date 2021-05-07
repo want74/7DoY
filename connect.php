@@ -1,3 +1,3 @@
 <?php 
-	$connect = mysqli_connect('127.0.0.1', 'root', '', '7DoY');
+	$connect = mysqli_connect('localhost', 'root', '', '7DoY');
 ?>
