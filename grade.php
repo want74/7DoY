@@ -45,7 +45,7 @@ $query2 = mysqli_query($connect, "UPDATE users SET description = '".$_POST['desc
                                     <h3 class="ml-4">У вас <?php echo $_POST['score']; ?>/3 баллов.</h3>
                                 </div>
                                 <div class="row">
-                                    <h4 class="ml-3"><br>Мы вам предлагаем <?php if ($_POST['score']==3){echo"двух недельный интесив";}else{echo"один учебный год обучений по специализации";}; ?> <br><br>Наши люди с вами свяжутся</h4>
+                                    <h4 class="ml-3"><br>Мы вам предлагаем <?php if ($_POST['score']==3){echo"двух недельный интесив";}else{echo"один учебный год обучений по специализации";}; ?></h4>
                                 </div>
                                 <div class="row">
                                     <a href="index.php" class="mx-auto">

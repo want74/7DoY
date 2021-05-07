@@ -87,22 +87,26 @@ body {
     height: 100vh;
 }
 
-.full {
-    background: url(../img/unnamed.jpg) no-repeat;
+.full1 {
+    background: url(../img/1.jpg) no-repeat;
+    background-size: cover;
+}
+.full2 {
+    background: url(../img/2.jpg) no-repeat;
     background-size: cover;
 }
 
 .forSlide1 {
     height: 70vh;
     width: 40%;
-    background: url('../img/office.png') no-repeat;
+    background: url('../img/card1.png') no-repeat;
     background-size: 100% 100%;
 }
 
 .forSlide3 {
     height: 70vh;
     width: 40%;
-    background: url('../img/chair.png') no-repeat;
+    background: url('../img/card2.png') no-repeat;
     background-size: 100% 100%;
 }
 
@@ -118,3 +122,18 @@ body {
     line-height: 28px;
 
 }
+
+.silka {
+    width: 180px;
+    height: 50px;
+    position: absolute;
+    left: 250px;
+    top: 100px;
+}
+
+.silka2 {
+    width: 160px;
+    height: 50px;
+    position: absolute;
+    left: 430px;
+    top: 100px;

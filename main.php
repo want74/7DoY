@@ -70,19 +70,19 @@
             <div class="row">
                 <div class="col">
                     <!--Что такое корона-->
-                    <section class="panel full d-flex" style="height: 100vh;">
+                    <section class="panel full1 d-flex" style="height: 100vh;">
 
                         <!--<video autoplay muted loop id="myVideo">
                             <source src="img/video.mp4" type="video/mp4">
                         </video>-->
                         <img src="img/LOGO.svg" class="" style="width:15%;">
-                        <button class="btn btn-ourColor" style="height:60px;margin-left:auto;">Выбрать свою роль</button>
+                        <a href="../" style="margin-left:auto;margin-top:400px;margin-right:30px;"><button class="btn btn-ourColor text-white" style="height:60px;">Войти/Зарегистрироваться</button></a>
                     </section>
 
-                    <div class="parallax-window" data-parallax="scroll" data-image-src="img/2.png"></div>
+                    <div class="parallax-window" data-parallax="scroll" data-image-src="img/para2.jpg"></div>
 
                     <!--Что можно, что нет-->
-                    <section class="panel full" style="height: 100vh;">
+                    <section class="panel full2" style="height: 100vh;">
                         <div class="row">
                             <div class="col-9 mx-auto">
                                 <div class="row" style="margin-top:12%;">
@@ -105,9 +105,9 @@
                                                         Мы вам предлогаем 2 вида обучения:
                                                         <br>
                                                         <br>
-                                                        1. 2-ух недельный интенсив
-                                                        <br>
-                                                        2. Годовое обучение по специализации
+                                                        1) 2-ух недельный интенсив
+                                                        <br><br>
+                                                        2) Годовое обучение по специализации
                                                     </p>
                                                 </div>
                                             </div>
@@ -118,10 +118,10 @@
                         </div>
                     </section>
 
-                    <div class="parallax-window" data-parallax="scroll" data-image-src="img/2.png"></div>
+                    <div class="parallax-window" data-parallax="scroll" data-image-src="img/para1.jpg"></div>
 
                     <!--Что можно, что нет-->
-                    <section class="panel full" style="height: 100vh;">
+                    <section class="panel full2" style="height: 100vh;">
                         <div class="row">
                             <div class="col-9 mx-auto">
                                 <div class="row" style="margin-top:12%;">
